@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav__bar{
+    height: 70px;
+    background-color: #1976D2;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.main__content{
+}
+
+.add__form{
+    margin-top: 40px;
+}
+
+.add__new__book input{
+    display: block;
+    border:0.4px #1976D2 solid;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 20px 20px 20px 50px;
+    width: 300px;
+    padding: 7px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+
+}
+
+.block{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: fit-content;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    margin-bottom: 9px;
+}
+
+.block div{
+    margin: 4px 5px ;
+    box-sizing: border-box;
+    padding-left: 7px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #555555;
+}
+
+.updateable{
+    display: inline;
+    margin-left: 9px;
+    margin-bottom: 7px;
+    margin-top: 15px;
+    border-radius: 3px;
+    padding: 5px 8px;
+    background-color: #1976D2;
+    color: #ffffff;
+    border:0.4px #1976D2 solid;
+}
+
+.update{
+    display: inline;
+}
+
+.delete{
+    display: inline;
+    margin-left: 20px;
+}
+
+.update__book{
+    position: absolute;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    width: 400px;
+    top: 30%;
+    left: 35%;
+}
+
+.update__book input{
+    display: block;
+    border:0.4px #1976D2 solid;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 20px 20px 20px 50px;
+    width: 300px;
+    padding: 7px;
+    margin-top: 20px;
+
+}
+
+
+
+
+#add{
+    width: 80px;
+    background-color: #1976D2;
+    color: white;
+}
+

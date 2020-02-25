@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javax.servlet-api-4.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/web/libs/javax.servlet-api-4.0.1" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

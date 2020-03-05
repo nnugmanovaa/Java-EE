@@ -1,0 +1,190 @@
+
+body{
+    display: flex;
+    height: 100vh;
+    background: url("white-marble-1-2018.jpg");
+}
+
+.header__part{
+    height: 70px;
+    color: maroon;
+    padding-left: 78%;
+    padding-top: 9px;
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    font-size: 30px;
+}
+
+.left__part{
+    width: 50%;
+}
+
+.right__part{
+    width: 50%;
+}
+
+.two__parts{
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+
+.head__text{
+    text-align: center;
+    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+    color: #4d0000;
+}
+
+.head__text h2{
+    font-weight: 500;
+}
+
+.head__text h3{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.item__list{
+    list-style-type: none;
+}
+
+.item{
+    padding: 4px 10px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.item h6{
+    font-weight: 600;
+    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+    color: maroon;
+    display: inline;
+    margin-left: 7px;
+}
+
+.item p{
+    display: inline;
+}
+
+.item span{
+   margin-left: 300px;
+}
+
+.set__inline{
+    display: inline;
+}
+
+.delete__btn{
+    border: none;
+    background-color: transparent;
+}
+
+.main__form{
+    width: 400px;
+    height: 300px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.form__out{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+.main__form input{
+    outline-style: none;
+}
+
+.form__content{
+    margin-left: 26px;
+}
+
+#table__content{
+    width: 500px;
+}
+
+.main__content{
+    margin: 5px 15px 5px;
+    padding: 5px 7px;
+    width: 300px ;
+    border-radius: 5px;
+    border: solid #999999 0.5px;
+}
+
+.main__label{
+    font-size: 17px;
+    font-weight: 600;
+    color: maroon;
+    display: block;
+}
+
+.main__top{
+    margin-top: 20px;
+}
+
+.form__btn{
+    padding: 5px 8px;
+    border-radius: 5px;
+    background: maroon;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid maroon;
+}
+
+.form__btn:hover{
+    background: crimson;
+    border: 1px solid crimson;
+}
+
+.table__active{
+    margin-top: 130px;
+    padding: 5px 7px;
+}
+
+
+
+
+#check{
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.edit{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    position: absolute;
+    left: 35%;
+    top: 27%;
+    width: 400px;
+    height: 200px;
+    padding-top: 50px;
+}
+
+.edit__content input[type="text"]{
+    display: block;
+    padding: 15px;
+    border-radius: 3px;
+    border: 0.4px solid #999999;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+}
+
+#save__btn{
+    padding: 7px;
+    background: maroon;
+    color: white;
+    border: 1px solid maroon;
+    border-radius: 3px;
+    margin-left: 45px;
+}
+
+#save__btn:hover{
+    background-color: crimson;
+}

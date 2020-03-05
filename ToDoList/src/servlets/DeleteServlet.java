@@ -16,7 +16,7 @@ public class DeleteServlet extends HttpServlet {
         String id = request.getParameter("id");
         if (Tester.isNumber(id)) {
             DBUtill.delete(Long.parseLong(id));
-            response.sendRedirect("");
+            response.sendRedirect("/indexToDo");
         } else {
             response.sendRedirect("/error.jsp");
         }

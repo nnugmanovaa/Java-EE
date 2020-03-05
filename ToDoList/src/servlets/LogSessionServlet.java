@@ -1,29 +1,35 @@
 package servlets;
 
-import db.DBUtill;
-import model.Item;
 import model.Tester;
+import model.User;
+import services.UserService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.Objects;
 
-@WebServlet(urlPatterns = "/addBook")
-public class AddServlet extends HttpServlet {
+@WebServlet(urlPatterns = "/login")
+public class LogSessionServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String title = request.getParameter("title");
-        String desc = request.getParameter("desc");
+        String username = request.getParameter("login");
+        String password = request.getParameter("password");
 
-        if (Tester.allNotNull(title, desc)) {
-            Item item = new Item(null, title, desc,false);
-            DBUtill.add(item);
+        User user = UserService.findByUsernameAndPassword(username, password);
+
+        if(Objects.nonNull(user)){
+            HttpSession session = request.getSession();
+            session.setAttribute("user", user);
             response.sendRedirect("/indexToDo");
-        }else {
-            response.sendRedirect("/error.jsp");
+        }else{
+            response.sendRedirect("");
         }
+
+
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -1,0 +1,18 @@
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th scope="col">ID</th>
+    <th scope="col">Name</th>
+    <th scope="col">Surname</th>
+    <th scope="col">Population</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let actor of actors; index as i">
+    <th scope="row">{{ i + 1 }}</th>
+    <td>{{ actor.name}}</td>
+    <td>{{ actor.surname }}</td>
+    <td><a [routerLink]="'/actors/' + actor.id"><p>Details</p></a></td>
+  </tr>
+  </tbody>
+</table>

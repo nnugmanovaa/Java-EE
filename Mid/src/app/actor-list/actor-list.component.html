@@ -9,7 +9,7 @@
   </thead>
   <tbody>
   <tr *ngFor="let actor of actors; index as i">
-    <th scope="row">{{ i + 1 }}</th>
+    <th scope="row">{{ actor.id }}</th>
     <td>{{ actor.name}}</td>
     <td>{{ actor.surname }}</td>
     <td><a [routerLink]="'/actors/' + actor.id"><p>Details</p></a></td>

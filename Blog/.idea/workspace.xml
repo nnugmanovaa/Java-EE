@@ -6,7 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66777d0f-08de-4046-baef-ac25f47aa10d" name="Default Changelist" comment="" />
+    <list default="true" id="66777d0f-08de-4046-baef-ac25f47aa10d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/nargiza/kz/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/nargiza/kz/controllers/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/nargiza/kz/db/DBManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/nargiza/kz/db/DBManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/nargiza/kz/models/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/nargiza/kz/models/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/nargiza/kz/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/nargiza/kz/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blog/nargiza/kz/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blog/nargiza/kz/controllers/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blog/nargiza/kz/db/DBManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blog/nargiza/kz/db/DBManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blog/nargiza/kz/models/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blog/nargiza/kz/models/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blog/nargiza/kz/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blog/nargiza/kz/models/User.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +32,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -29,11 +43,13 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1Z1OzIjsGefOKIaVUQqSisU8m3S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/libs/javax.servlet-api-4.0.1" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Basilic" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35735294" />
   </component>
@@ -216,10 +232,22 @@
       <updated>1584003394923</updated>
       <workItem from="1584003398286" duration="6545000" />
       <workItem from="1584036372164" duration="1116000" />
+      <workItem from="1584445722322" duration="291000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
